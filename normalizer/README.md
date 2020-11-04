@@ -8,6 +8,6 @@
 
 ```bash
 $ go build
-$ ./normalizer < ../sample.csv > sample_normalized.scv
-$ ./normalized < ../sample-with-broken-utf8.csv > sample_normalized.csv
+$ ./normalizer < ../sample.csv > sample_normalized.csv
+$ ./normalizer < ../sample-with-broken-utf8.csv > sample-with-broken-utf8_normalized.csv
 ```
